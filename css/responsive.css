@@ -13,9 +13,17 @@
         padding-bottom: 10px;
         font-size: 18px;
     }
-  
+    .address{
+        text-align: center;
+    }  
 
-
+    #social li{
+        width: 50px;
+    }
+    #social li:hover{
+     transform: none;
+     transition: none;
+}
 }
 @media only screen and (max-width:986px){
     .work_type h3{

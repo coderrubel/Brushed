@@ -111,6 +111,26 @@
 }
 .text_box{
     max-width: 100%;
-    min-width: 100%;
-    
+    min-width: 100%;   
+}
+.address{
+    color: grey;
+}
+#social{
+    background: #26292E;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#social li{
+    background-color:#2F3238;
+    padding: 0px;
+    margin: 20px;
+}
+#social li:hover{
+     transform: rotate(360deg);
+     transition: all 1s;
+}
+#social li a:hover{
+     background: darkmagenta;
 }
