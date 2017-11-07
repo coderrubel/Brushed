@@ -17,13 +17,17 @@
         text-align: center;
     }  
 
-    #social li{
-        width: 50px;
+    #social{
+        display: none;
     }
-    #social li:hover{
-     transform: none;
-     transition: none;
+.footer{
+    background-color:#26292E;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
 }
+
 }
 @media only screen and (max-width:986px){
     .work_type h3{
@@ -31,6 +35,9 @@
         font-weight: bold;
     }
 
-
+footer{
+         background: red;
+         padding: 0px;
+    }
 
 }
